@@ -5,6 +5,11 @@ Refer this project for learning purpose.
 
 #Installation
 
+  -   Download the zip file or clone the project
+       ```sh
+$  git clone https://github.com/aashishtamsya/ToDoRealm.git
+```
+
   -   Open terminal
   -   Run following commands on terminal
   
