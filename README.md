@@ -1,6 +1,9 @@
 # ToDoRealm
 
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-green.svg)]() [![](https://img.shields.io/badge/realm-v0.103.1-ff69b4.svg)]()
+[![](https://img.shields.io/badge/platform%20-iOS-00cccc.svg)](https://cocoapods.org/)
+[![](https://img.shields.io/badge/swift%20-2.2-orange.svg)](https://developer.apple.com/swift/)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-green.svg)](https://cocoapods.org/)
+[![](https://img.shields.io/badge/realm-v0.103.1-ff69b4.svg)]()
 
 #Documentation
 
@@ -8,7 +11,7 @@ A To Do Application made with Realm Database.
 
 Refer this project for learning purpose.
 
-#Prerequisites
+#Requirements
 
 -   [Git](https://git-scm.com/downloads) 
 -   [Cocoapods v1.0.0] (https://cocoapods.org/)
