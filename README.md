@@ -18,6 +18,8 @@ cd /YOUR_PROJECT_DIRECTORY
 
 pod install
 ```
+-   Run ```ATToDoRealm.xcworkspace```
+
 
 # Author
 
