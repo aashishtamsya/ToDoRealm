@@ -6,8 +6,9 @@ Refer this project for learning purpose.
 #Prerequisites
 
 -   [Git](https://git-scm.com/downloads) 
--   [Cocoapods](https://cocoapods.org/)
--   [Xcode 7.3+](https://itunes.apple.com/in/app/xcode/id497799835?mt=12)
+-   [Cocoapods v1.0.0] (https://cocoapods.org/)
+-   [Xcode 7.3](https://itunes.apple.com/in/app/xcode/id497799835?mt=12) or later required.
+
 
 #Installation
 
