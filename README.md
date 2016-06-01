@@ -3,9 +3,6 @@
 [![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-green.svg)]() [![](https://img.shields.io/badge/realm-v0.103.1-ff69b4.svg)]()
 
 #Documentation
-  -   Prerequisites
-  -   Installation
-  -   Author
 
 A To Do Application made with Realm Database.
 
