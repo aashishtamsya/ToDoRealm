@@ -5,7 +5,13 @@ Refer this project for learning purpose.
 
 #Installation
 
-  -   Open terminal and go to your project directory
+  -   Open terminal
+  -   Run following commands on terminal
+  
+     ```sh
+$  cd ../YOUR_PROJECT_DIRECTORY/
+```
+
 
 
 # Author
