@@ -12,6 +12,11 @@ Refer this project for learning purpose.
 $  cd ../YOUR_PROJECT_DIRECTORY/
 ```
 
+    ```sh
+$  pod install
+```
+
+
 
 
 # Author
