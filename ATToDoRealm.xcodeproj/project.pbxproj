@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FB613A8FE645CA3240B8CEA /* Pods_ATToDoRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1CB145E9886F826097410 /* Pods_ATToDoRealm.framework */; };
+		A269096D890F8F608FE2A5D7 /* Pods_ATToDoRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AD5B542E12EE17C702FF2F /* Pods_ATToDoRealmUITests.framework */; };
+		A58D3F33D0A15FD6426517FF /* Pods_ATToDoRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B1C018C646383CB01CC4FC /* Pods_ATToDoRealmTests.framework */; };
+		F3BAB03F1CFDACA200BBAA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAB03E1CFDACA200BBAA20 /* AppDelegate.swift */; };
+		F3BAB0411CFDACA200BBAA20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAB0401CFDACA200BBAA20 /* ViewController.swift */; };
+		F3BAB0441CFDACA200BBAA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BAB0421CFDACA200BBAA20 /* Main.storyboard */; };
+		F3BAB0461CFDACA200BBAA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BAB0451CFDACA200BBAA20 /* Assets.xcassets */; };
+		F3BAB0491CFDACA200BBAA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BAB0471CFDACA200BBAA20 /* LaunchScreen.storyboard */; };
+		F3BAB0541CFDACA200BBAA20 /* ATToDoRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAB0531CFDACA200BBAA20 /* ATToDoRealmTests.swift */; };
+		F3BAB05F1CFDACA200BBAA20 /* ATToDoRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAB05E1CFDACA200BBAA20 /* ATToDoRealmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3BAB0501CFDACA200BBAA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAB0331CFDACA200BBAA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BAB03A1CFDACA200BBAA20;
+			remoteInfo = ATToDoRealm;
+		};
+		F3BAB05B1CFDACA200BBAA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAB0331CFDACA200BBAA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BAB03A1CFDACA200BBAA20;
+			remoteInfo = ATToDoRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A5C0A62D3FF597B4BB7F0F0 /* Pods-ATToDoRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATToDoRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATToDoRealm/Pods-ATToDoRealm.release.xcconfig"; sourceTree = "<group>"; };
+		39EBAD84CDCD31AFB2F6115E /* Pods-ATToDoRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATToDoRealmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATToDoRealmUITests/Pods-ATToDoRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48FE3A631FBCF4303B8341DA /* Pods-ATToDoRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATToDoRealmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATToDoRealmUITests/Pods-ATToDoRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		506B8EF8D18A02560419B6CB /* Pods-ATToDoRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATToDoRealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATToDoRealmTests/Pods-ATToDoRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55B1C018C646383CB01CC4FC /* Pods_ATToDoRealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATToDoRealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC2D96453906A51BCBAE5CD /* Pods-ATToDoRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATToDoRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATToDoRealm/Pods-ATToDoRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		68C1CB145E9886F826097410 /* Pods_ATToDoRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATToDoRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7529A13F1CC8784BD6185592 /* Pods-ATToDoRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATToDoRealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATToDoRealmTests/Pods-ATToDoRealmTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6AD5B542E12EE17C702FF2F /* Pods_ATToDoRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATToDoRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BAB03B1CFDACA200BBAA20 /* ATToDoRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATToDoRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BAB03E1CFDACA200BBAA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3BAB0401CFDACA200BBAA20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3BAB0431CFDACA200BBAA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3BAB0451CFDACA200BBAA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3BAB0481CFDACA200BBAA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3BAB04A1CFDACA200BBAA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BAB04F1CFDACA200BBAA20 /* ATToDoRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATToDoRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BAB0531CFDACA200BBAA20 /* ATToDoRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATToDoRealmTests.swift; sourceTree = "<group>"; };
+		F3BAB0551CFDACA200BBAA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BAB05A1CFDACA200BBAA20 /* ATToDoRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATToDoRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BAB05E1CFDACA200BBAA20 /* ATToDoRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATToDoRealmUITests.swift; sourceTree = "<group>"; };
+		F3BAB0601CFDACA200BBAA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BAB0381CFDACA200BBAA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB613A8FE645CA3240B8CEA /* Pods_ATToDoRealm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BAB04C1CFDACA200BBAA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58D3F33D0A15FD6426517FF /* Pods_ATToDoRealmTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BAB0571CFDACA200BBAA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A269096D890F8F608FE2A5D7 /* Pods_ATToDoRealmUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B402A2E8884858CD1E66B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C1CB145E9886F826097410 /* Pods_ATToDoRealm.framework */,
+				55B1C018C646383CB01CC4FC /* Pods_ATToDoRealmTests.framework */,
+				A6AD5B542E12EE17C702FF2F /* Pods_ATToDoRealmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61A46129377FA693D42632B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2D96453906A51BCBAE5CD /* Pods-ATToDoRealm.debug.xcconfig */,
+				2A5C0A62D3FF597B4BB7F0F0 /* Pods-ATToDoRealm.release.xcconfig */,
+				506B8EF8D18A02560419B6CB /* Pods-ATToDoRealmTests.debug.xcconfig */,
+				7529A13F1CC8784BD6185592 /* Pods-ATToDoRealmTests.release.xcconfig */,
+				39EBAD84CDCD31AFB2F6115E /* Pods-ATToDoRealmUITests.debug.xcconfig */,
+				48FE3A631FBCF4303B8341DA /* Pods-ATToDoRealmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3BAB0321CFDACA200BBAA20 = {
+			isa = PBXGroup;
+			children = (
+				F3BAB03D1CFDACA200BBAA20 /* ATToDoRealm */,
+				F3BAB0521CFDACA200BBAA20 /* ATToDoRealmTests */,
+				F3BAB05D1CFDACA200BBAA20 /* ATToDoRealmUITests */,
+				F3BAB03C1CFDACA200BBAA20 /* Products */,
+				B61A46129377FA693D42632B /* Pods */,
+				1B402A2E8884858CD1E66B04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BAB03C1CFDACA200BBAA20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAB03B1CFDACA200BBAA20 /* ATToDoRealm.app */,
+				F3BAB04F1CFDACA200BBAA20 /* ATToDoRealmTests.xctest */,
+				F3BAB05A1CFDACA200BBAA20 /* ATToDoRealmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BAB03D1CFDACA200BBAA20 /* ATToDoRealm */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAB03E1CFDACA200BBAA20 /* AppDelegate.swift */,
+				F3BAB0401CFDACA200BBAA20 /* ViewController.swift */,
+				F3BAB0421CFDACA200BBAA20 /* Main.storyboard */,
+				F3BAB0451CFDACA200BBAA20 /* Assets.xcassets */,
+				F3BAB0471CFDACA200BBAA20 /* LaunchScreen.storyboard */,
+				F3BAB04A1CFDACA200BBAA20 /* Info.plist */,
+			);
+			path = ATToDoRealm;
+			sourceTree = "<group>";
+		};
+		F3BAB0521CFDACA200BBAA20 /* ATToDoRealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAB0531CFDACA200BBAA20 /* ATToDoRealmTests.swift */,
+				F3BAB0551CFDACA200BBAA20 /* Info.plist */,
+			);
+			path = ATToDoRealmTests;
+			sourceTree = "<group>";
+		};
+		F3BAB05D1CFDACA200BBAA20 /* ATToDoRealmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAB05E1CFDACA200BBAA20 /* ATToDoRealmUITests.swift */,
+				F3BAB0601CFDACA200BBAA20 /* Info.plist */,
+			);
+			path = ATToDoRealmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3BAB03A1CFDACA200BBAA20 /* ATToDoRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BAB0631CFDACA200BBAA20 /* Build configuration list for PBXNativeTarget "ATToDoRealm" */;
+			buildPhases = (
+				9B9D9E448E23546B1DB75A28 /* 📦 Check Pods Manifest.lock */,
+				F3BAB0371CFDACA200BBAA20 /* Sources */,
+				F3BAB0381CFDACA200BBAA20 /* Frameworks */,
+				F3BAB0391CFDACA200BBAA20 /* Resources */,
+				9F9A66B42D43EC85DD91E9A0 /* 📦 Embed Pods Frameworks */,
+				8C8E842D049E8C8F7AF1B784 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATToDoRealm;
+			productName = ATToDoRealm;
+			productReference = F3BAB03B1CFDACA200BBAA20 /* ATToDoRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3BAB04E1CFDACA200BBAA20 /* ATToDoRealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BAB0661CFDACA200BBAA20 /* Build configuration list for PBXNativeTarget "ATToDoRealmTests" */;
+			buildPhases = (
+				65A556CDF6836112FBBC139D /* 📦 Check Pods Manifest.lock */,
+				F3BAB04B1CFDACA200BBAA20 /* Sources */,
+				F3BAB04C1CFDACA200BBAA20 /* Frameworks */,
+				F3BAB04D1CFDACA200BBAA20 /* Resources */,
+				C96C8E72BEF88D2C5DAABE41 /* 📦 Embed Pods Frameworks */,
+				C873723DA73157B9507BE985 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BAB0511CFDACA200BBAA20 /* PBXTargetDependency */,
+			);
+			name = ATToDoRealmTests;
+			productName = ATToDoRealmTests;
+			productReference = F3BAB04F1CFDACA200BBAA20 /* ATToDoRealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3BAB0591CFDACA200BBAA20 /* ATToDoRealmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BAB0691CFDACA200BBAA20 /* Build configuration list for PBXNativeTarget "ATToDoRealmUITests" */;
+			buildPhases = (
+				FDFEF8B3F2D243762D484381 /* 📦 Check Pods Manifest.lock */,
+				F3BAB0561CFDACA200BBAA20 /* Sources */,
+				F3BAB0571CFDACA200BBAA20 /* Frameworks */,
+				F3BAB0581CFDACA200BBAA20 /* Resources */,
+				AFDDA9FF2364C1FE309EB5E7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BAB05C1CFDACA200BBAA20 /* PBXTargetDependency */,
+			);
+			name = ATToDoRealmUITests;
+			productName = ATToDoRealmUITests;
+			productReference = F3BAB05A1CFDACA200BBAA20 /* ATToDoRealmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BAB0331CFDACA200BBAA20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aashish Tamsya";
+				TargetAttributes = {
+					F3BAB03A1CFDACA200BBAA20 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F3BAB04E1CFDACA200BBAA20 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F3BAB03A1CFDACA200BBAA20;
+					};
+					F3BAB0591CFDACA200BBAA20 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F3BAB03A1CFDACA200BBAA20;
+					};
+				};
+			};
+			buildConfigurationList = F3BAB0361CFDACA200BBAA20 /* Build configuration list for PBXProject "ATToDoRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3BAB0321CFDACA200BBAA20;
+			productRefGroup = F3BAB03C1CFDACA200BBAA20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BAB03A1CFDACA200BBAA20 /* ATToDoRealm */,
+				F3BAB04E1CFDACA200BBAA20 /* ATToDoRealmTests */,
+				F3BAB0591CFDACA200BBAA20 /* ATToDoRealmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BAB0391CFDACA200BBAA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BAB0491CFDACA200BBAA20 /* LaunchScreen.storyboard in Resources */,
+				F3BAB0461CFDACA200BBAA20 /* Assets.xcassets in Resources */,
+				F3BAB0441CFDACA200BBAA20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BAB04D1CFDACA200BBAA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BAB0581CFDACA200BBAA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65A556CDF6836112FBBC139D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8E842D049E8C8F7AF1B784 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATToDoRealm/Pods-ATToDoRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9D9E448E23546B1DB75A28 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9A66B42D43EC85DD91E9A0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATToDoRealm/Pods-ATToDoRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDDA9FF2364C1FE309EB5E7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATToDoRealmUITests/Pods-ATToDoRealmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C873723DA73157B9507BE985 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATToDoRealmTests/Pods-ATToDoRealmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96C8E72BEF88D2C5DAABE41 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATToDoRealmTests/Pods-ATToDoRealmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDFEF8B3F2D243762D484381 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BAB0371CFDACA200BBAA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BAB0411CFDACA200BBAA20 /* ViewController.swift in Sources */,
+				F3BAB03F1CFDACA200BBAA20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BAB04B1CFDACA200BBAA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BAB0541CFDACA200BBAA20 /* ATToDoRealmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BAB0561CFDACA200BBAA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BAB05F1CFDACA200BBAA20 /* ATToDoRealmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3BAB0511CFDACA200BBAA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BAB03A1CFDACA200BBAA20 /* ATToDoRealm */;
+			targetProxy = F3BAB0501CFDACA200BBAA20 /* PBXContainerItemProxy */;
+		};
+		F3BAB05C1CFDACA200BBAA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BAB03A1CFDACA200BBAA20 /* ATToDoRealm */;
+			targetProxy = F3BAB05B1CFDACA200BBAA20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3BAB0421CFDACA200BBAA20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BAB0431CFDACA200BBAA20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3BAB0471CFDACA200BBAA20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BAB0481CFDACA200BBAA20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3BAB0611CFDACA200BBAA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3BAB0621CFDACA200BBAA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BAB0641CFDACA200BBAA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC2D96453906A51BCBAE5CD /* Pods-ATToDoRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATToDoRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashishtamsya.ATToDoRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3BAB0651CFDACA200BBAA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5C0A62D3FF597B4BB7F0F0 /* Pods-ATToDoRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATToDoRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashishtamsya.ATToDoRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3BAB0671CFDACA200BBAA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506B8EF8D18A02560419B6CB /* Pods-ATToDoRealmTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ATToDoRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashishtamsya.ATToDoRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATToDoRealm.app/ATToDoRealm";
+			};
+			name = Debug;
+		};
+		F3BAB0681CFDACA200BBAA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7529A13F1CC8784BD6185592 /* Pods-ATToDoRealmTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ATToDoRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashishtamsya.ATToDoRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATToDoRealm.app/ATToDoRealm";
+			};
+			name = Release;
+		};
+		F3BAB06A1CFDACA200BBAA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EBAD84CDCD31AFB2F6115E /* Pods-ATToDoRealmUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ATToDoRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashishtamsya.ATToDoRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATToDoRealm;
+			};
+			name = Debug;
+		};
+		F3BAB06B1CFDACA200BBAA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FE3A631FBCF4303B8341DA /* Pods-ATToDoRealmUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ATToDoRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aashishtamsya.ATToDoRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATToDoRealm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BAB0361CFDACA200BBAA20 /* Build configuration list for PBXProject "ATToDoRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BAB0611CFDACA200BBAA20 /* Debug */,
+				F3BAB0621CFDACA200BBAA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BAB0631CFDACA200BBAA20 /* Build configuration list for PBXNativeTarget "ATToDoRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BAB0641CFDACA200BBAA20 /* Debug */,
+				F3BAB0651CFDACA200BBAA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BAB0661CFDACA200BBAA20 /* Build configuration list for PBXNativeTarget "ATToDoRealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BAB0671CFDACA200BBAA20 /* Debug */,
+				F3BAB0681CFDACA200BBAA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BAB0691CFDACA200BBAA20 /* Build configuration list for PBXNativeTarget "ATToDoRealmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BAB06A1CFDACA200BBAA20 /* Debug */,
+				F3BAB06B1CFDACA200BBAA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BAB0331CFDACA200BBAA20 /* Project object */;
+}
